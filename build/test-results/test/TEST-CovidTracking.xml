@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CovidTracking" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-11T04:44:45" hostname="JHESU-PC" time="1.28">
+<testsuite name="CovidTracking" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-13T14:42:51" hostname="JHESU-PC" time="6.011">
   <properties/>
-  <testcase name="Validar informacion por fecha" classname="CovidTracking" time="1.28"/>
-  <system-out><![CDATA[2022-04-10 23:44:47 ERROR serviceValidationStepDefinition:53 Hubo un error en el when
+  <testcase name="Validar informacion por fecha" classname="CovidTracking" time="6.011"/>
+  <system-out><![CDATA[2022-04-13 09:42:56 ERROR serviceValidationStepDefinition:53 Hubo un error en el when
 ]]></system-out>
   <system-err><![CDATA[[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///I:/Programacion1/Recuperacion/Rest_Assured/src/test/resources/features/covidTracking.feature
 [Test worker] INFO  - 

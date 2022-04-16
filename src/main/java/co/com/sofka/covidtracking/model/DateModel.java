@@ -1,16 +1,10 @@
 package co.com.sofka.covidtracking.model;
 
-
-
-
 public class DateModel {
 
     private String dayinit;
     private String monthinit;
     private String yearinit;
-
-
-
 
     public String getDayinit() {
         return dayinit;
@@ -36,16 +30,11 @@ public class DateModel {
         this.yearinit = yearinit;
     }
 
-
+    @Override
     public String toString(){
-        String data = ("/"+getYearinit()+"-"+getMonthinit()+
+        return  ("/"+getYearinit()+"-"+getMonthinit()+
                 "-"+getDayinit()+".json");
-        return  data;
     }
-
-
-
-
 }
 
 

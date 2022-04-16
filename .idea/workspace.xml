@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75c2d83a-0be6-4286-9e64-eea04af895d4" name="Changes" comment="" />
+    <list default="true" id="75c2d83a-0be6-4286-9e64-eea04af895d4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/CovidTracking.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/CovidTracking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/co.com.sofka.covidtracking.runners.servicesValidation.serviceValidationTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/co.com.sofka.covidtracking.runners.servicesValidation.serviceValidationTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/co.com.sofka.covidtracking.runners.servicesValidation.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/co.com.sofka.covidtracking.runners.servicesValidation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-CovidTracking.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-CovidTracking.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/sofka/covidtracking/setup/services/setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/sofka/covidtracking/setup/services/setup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-dbce10270d120bdeb25478c52f30de71b69e420aaa128d4128b9d613eedf5806.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-dbce10270d120bdeb25478c52f30de71b69e420aaa128d4128b9d613eedf5806.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/dbce10270d120bdeb25478c52f30de71b69e420aaa128d4128b9d613eedf5806.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/dbce10270d120bdeb25478c52f30de71b69e420aaa128d4128b9d613eedf5806.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/dbce10270d120bdeb25478c52f30de71b69e420aaa128d4128b9d613eedf5806.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/dbce10270d120bdeb25478c52f30de71b69e420aaa128d4128b9d613eedf5806.json" afterDir="false" />
+    </list>
+    <list id="96e102f2-3671-43fb-8ac3-0db77b1a2b65" name="Changes by pc" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/covidtracking/model/DateModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/sofka/covidtracking/model/DateModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/covidtracking/utils/infoDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/sofka/covidtracking/utils/infoDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/sofka/covidtracking/stepdefinitions/serviceValidation/serviceValidationStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/sofka/covidtracking/stepdefinitions/serviceValidation/serviceValidationStepDefinition.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +49,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Page_Factory" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,7 +62,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Sofka proyects/Talleres/Automatizacion/Reto_Screenplay" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Page_Factory" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -83,6 +108,17 @@
       <updated>1649611199304</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

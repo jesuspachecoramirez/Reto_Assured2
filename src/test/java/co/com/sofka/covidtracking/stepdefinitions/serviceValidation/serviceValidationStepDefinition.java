@@ -17,58 +17,43 @@ import static org.hamcrest.Matchers.equalTo;
 
 
 public class serviceValidationStepDefinition extends setup {
-    private static final Logger LOGGER = Logger.getLogger(serviceValidationStepDefinition.class);
+     private static final Logger LOGGER = Logger.getLogger(serviceValidationStepDefinition.class);
      DateModel dateModel;
      Response response;
      RequestSpecification request;
 
-
     @Given("El usuario desea obtener informacion de una fecha especifica")
     public void elUsuarioDeseaObtenerInformacionDeUnaFechaEspecifica() {
-     try{
-         dateModel = infoDate.generateDate();
-         dateModel.getYearinit();
-         dateModel.getMonthinit();
-         dateModel.getDayinit();
+         try{
+             dateModel = infoDate.generateDate();
 
-         generalSetUp();
-         request= given();
+             generalSetUp();
+             request= given();
 
-     }catch (Exception e){
-         LOGGER.error("Hubo un error en el given");
-         Assertions.fail("Hubo un error en el given");
-
-     }
-
-
+         }catch (Exception e){
+             LOGGER.error("Hubo un error en el given");
+             Assertions.fail("Hubo un error en el given");
+        }
     }
+
     @When("el usuario desea conocer los casos confirmados de la fecha")
     public void elUsuarioDeseaConocerLosCasosConfirmadosDeLaFecha() {
      try{
-
        request.when().get(dateModel.toString());
-
-
      }catch (Exception e){
          LOGGER.error("Hubo un error en el when");
-
-
      }
 
     }
     @Then("la pagina muestra la informacion correspondiente")
     public void laPaginaMuestraLaInformacionCorrespondiente() {
       try{
-
           request.then().statusCode(HttpStatus.SC_OK)
                   .body("meta.field_definitions[2].name",equalTo("Confirmed Cases"));
       }catch (Exception e){
           LOGGER.error("Hubo un error en el then");
           Assertions.fail("Hubo un error en el then");
       }
-
-
-
     }
 
 }
